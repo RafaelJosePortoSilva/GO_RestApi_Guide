@@ -1,6 +1,8 @@
 package main
 
 import (
+	"apirest/controllers"
+	"apirest/routes"
 	"fmt"
 	"net/http"
 )
