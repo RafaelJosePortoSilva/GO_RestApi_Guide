@@ -1,14 +1,12 @@
 package main
 
 import (
-	"apirest/controllers"
-	"apirest/routes"
 	"fmt"
 	"net/http"
 )
 
 func main() {
-	// Define routes n handler functions
+	// Define routes n handler Sfunctions
 	http.HandleFunc("/", rootHandler)
 	http.HandleFunc("/hello", helloHandler)
 
